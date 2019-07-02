@@ -1,0 +1,27 @@
+    html {font-family: "Roboto", sans-serif}
+
+    .center, .center-align {
+      text-align: center;
+    }
+    h1 {
+      font-size: 4.2rem;
+      line-height: 110%;
+      margin: 2.1rem 0 1.68rem 0;
+    }
+
+    fieldset {
+      border: 1px solid #c0c0c0;
+      margin: 0 2px;
+      padding: 0.35em 0.625em 0.75em;
+    }
+
+    .container {
+      margin: 0 auto;
+      max-width: 1280px;
+      width: 90%;
+    }
+
+    #error {
+      margin-bottom: 10px;
+      color: red;
+    }

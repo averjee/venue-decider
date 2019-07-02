@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Venue Decider</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="center-align">
+      Venue Decider
+    </h1>
+    <form id="members">
+      <div id="error"></div>      
+      <fieldset>      
+          <legend>Which team members will be attending?</legend>      
+          <input type="checkbox" id="john" class="checkbox" value="John Doe">John Doe<br>      
+          <input type="checkbox" id="tony" class="checkbox" value="Tony Smith">Tony Smith<br>      
+          <input type="checkbox" id="frank" class="checkbox" value="Frank Webb">Frank Webb<br>
+          <input type="checkbox" id="emily" class="checkbox" value="Emily Pratt">Emily Pratt<br>
+          <input type="checkbox" id="paulina" class="checkbox" value="Paulina Lang">Paulina Lang<br>      
+          <br>      
+          <input id="submit" type="submit" value="Submit Names" />      
+      </fieldset>      
+  </form>
+  <div id="places-to-go"></div>
+  <div id="places-to-avoid"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
